@@ -203,13 +203,13 @@ body {
 .price-input {
   padding: 22px 18px;
   width: 344px;
-  height: 65px;
   background: #FFFFFF;
   border: 1px solid #5D5D5F;
   font-size: 16px;
   color: #000;
   outline: none;
   margin-bottom: 15px;
+  box-sizing: border-box;
 }
 
 .price-input::placeholder {
@@ -217,7 +217,7 @@ body {
 }
 
 .price .button {
-  width: 382px;
+  width: 100%;
 }
 
 .price-image {
