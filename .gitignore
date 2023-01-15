@@ -1,2 +1,8 @@
-# ide core
+# IDEs and editors
 /.idea
+
+# Node
+cars-app/node_modules
+
+# Miscellaneous
+cars-app/.angular
