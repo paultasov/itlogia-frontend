@@ -1,7 +1,7 @@
 <header class="header">
   <div class="container">
     <div class="logo">
-      <img src="../assets/images/logo.png"
+      <img src="assets/images/logo.png"
         alt="Лого">
     </div>
 
@@ -46,7 +46,7 @@
     <div class="car-items">
       <div class="car-item" *ngFor="let car of carsData">
         <div class="car-item-image">
-          <img src="../assets/images/{{car.image}}"
+          <img src="{{car.image}}"
             alt="Image">
         </div>
 
@@ -55,21 +55,21 @@
         <div class="car-item-info">
 
           <div class="car-item-point">
-            <img src="../assets/images/gear.png"
+            <img src="assets/images/gear.png"
               alt="Gear">
             <div>Привод</div>
             <div>{{car.gear}}</div>
           </div>
 
           <div class="car-item-point">
-            <img src="../assets/images/wheel.png"
+            <img src="assets/images/wheel.png"
               alt="Wheel">
             <div>Двигатель</div>
             <div>{{car.engine}} л.с.</div>
           </div>
 
           <div class="car-item-point">
-            <img src="../assets/images/belt.png"
+            <img src="assets/images/belt.png"
               alt="Belt">
             <div>Кол-во мест</div>
             <div>{{car.places}}</div>
@@ -102,7 +102,7 @@
         (click)="onSubmit()" [disabled]="!priceForm.valid">Узнать
         цену</button>
     </form>
-    <img src="../assets/images/rolls.png" alt="Rolls" class="price-image"
+    <img src="assets/images/rolls.png" alt="Rolls" class="price-image"
       [ngStyle]="trans">
   </div>
 </section>
@@ -110,7 +110,7 @@
 <footer class="footer">
   <div class="container">
     <div class="logo">
-      <img src="../assets/images/logo.png"
+      <img src="assets/images/logo.png"
         alt="Лого">
     </div>
     <div class="rights">Все права защищены</div>
